@@ -7,10 +7,10 @@
   <name>congomongo</name>
   <description>clojure-friendly api for MongoDB</description>
   <scm>
-    <connection>scm:git:git://github.com/somnium/congomongo.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/somnium/congomongo.git</developerConnection>
-    <tag>3f800e4338bcbe649c444c38e50e5c82bfccd878</tag>
-    <url>http://github.com/somnium/congomongo</url>
+    <connection>scm:git:git://github.com/agravitis/congomongo.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/agravitis/congomongo.git</developerConnection>
+    <tag>6e9735740d35beb232318d333411c9ce07247109</tag>
+    <url>http://github.com/agravitis/congomongo</url>
   </scm>
   <repositories>
     <repository>
@@ -34,12 +34,12 @@
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>clojure</artifactId>
-      <version>1.1.0-master-SNAPSHOT</version>
+      <version>1.2.0-master-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>clojure-contrib</artifactId>
-      <version>1.1.0-master-SNAPSHOT</version>
+      <version>1.2.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.clojars.somnium</groupId>

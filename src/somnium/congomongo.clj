@@ -25,7 +25,7 @@
   (:use     [somnium.congomongo.config :only [*mongo-config*]]
             [somnium.congomongo.util   :only [named defunk]]
             [somnium.congomongo.coerce :only [coerce coerce-fields]]
-            [clojure.contrib.json read write])
+            [clojure.contrib.json])
   (:import  [com.mongodb Mongo DB DBCollection DBObject ObjectId]
             [com.mongodb.gridfs GridFS]
             [com.mongodb.util JSON]
